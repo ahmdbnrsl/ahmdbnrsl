@@ -1,16 +1,80 @@
-## Hi there 👋
+## ABOUT ME
+Helle my name is Ahmad Beni Rusli.
 
-<!--
-**ahmdbnrsl/ahmdbnrsl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```typescript
+interface Address {
+    street: string;
+    city: string;
+}
 
-Here are some ideas to get you started:
+interface Hobbies {
+    [index: number]: string;
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+interface DetailEducations {
+    name: string;
+    address: string;
+    level: string;
+    year: string;
+}
+
+interface Educations {
+    [index: number]: DetailEducations;
+}
+
+interface FavouritesFoods {
+    [index: number]: string;
+}
+
+interface Person {
+    name: string;
+    birth: string;
+    address: Address;
+    hobbies: Hobbies;
+    educations: Educations;
+    favouritesFoods: FavouritesFoods;
+}
+
+class MyDetail<Type extends Person> {
+    constructor(public myDetail: Type) {}
+}
+
+const myDetail = new MyDetail<Person>({
+    name: "Ahmad Beni Rusli",
+    birth: "Cilacap, 23 July 2005",
+    address: {
+        street: "Jln. Cipari no 4",
+        city: "Cilacap"
+    },
+    hobbies: [
+        "Coding",
+        "Drawing",
+        "Workout",
+        "Sleeping"
+    ],
+    educations: [
+        {
+            name: "MI Islamiyah",
+            address: "Jln. Cipari no 4, Tinggarjaya",
+            level: "elementary school",
+            year: "2011 - 2017"
+        },
+        {
+            name: "MTs Darul Ulum 02",
+            address: "Jln. Makam Pahlawan, Tinggarjaya",
+            level: "Junior high school",
+            year: "2017 - 2020"
+        },
+        {
+            name: "SMK Darul Ulum",
+            address: "Jln. Makam Pahlawan, Tinggarjaya",
+            level: "Vacational High School",
+            year: "2020 - 2023"
+        }
+    ],
+        favouritesFoods: [
+            "Fried Chicken",
+            "Ice Cream"
+        ]
+});
+```
