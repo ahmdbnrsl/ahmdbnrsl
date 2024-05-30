@@ -12,7 +12,6 @@ I am confident that with hard work and dedication, I can achieve my goals and be
 
 Thank you for your attention.
 ```json
-//data.json
 {
     "name": "Ahmad Beni Rusli",
     "age": 19,
