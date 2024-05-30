@@ -25,10 +25,5 @@ I am confident that with hard work and dedication, I can achieve my goals and be
 
 Thank you for your attention.
 ```typescript
-import { Happiness, Success } from "God";
-
-if ( Pray && Effort ) {
-    Happiness();
-    Success();
-}
+module Happiness require "God";
 ```
