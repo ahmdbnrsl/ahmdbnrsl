@@ -25,5 +25,11 @@ I am confident that with hard work and dedication, I can achieve my goals and be
 
 Thank you for your attention.
 ```typescript
-module Happiness require "God";
+@module Happiness require "God"
+@module Success require "power" extends "God"
+
+variable Pray boolean value true
+variable Effort boolean value true
+
+if (Pray and Effort hasValue true) return $(Happiness) and $(Success)
 ```
