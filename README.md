@@ -1,6 +1,5 @@
 ## `Introduction`
-```typescript
-/*
+
 Hello, my name is Ahmad Beni Rusli. I was born in Cilacap on July 23, 2005. Currently, I live in Rt03 RW 05 Tinggarjaya village, Sidareja subdistrict, Cilacap district.
 
 Since I was a child, I have had a great interest in the world of art and technology. This can be seen from my hobbies of painting and coding.
@@ -12,8 +11,7 @@ My interest in art and technology has led me to my dream of becoming a Fullstack
 I am confident that with hard work and dedication, I can achieve my goals and become a successful Fullstack Web Developer.
 
 Thank you for your attention.
-*/
-
+```typescript
 interface Address {
     street: string;
     city: string;
