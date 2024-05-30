@@ -37,5 +37,8 @@ variable Effort
   value
     ["Learn", "Build Relation"].
 
-if (Pray and Effort value istruthy) return $(Happiness) and $(Success).
+if
+  Pray and Effort
+  value istruthy
+    { $Happiness. $Success }
 ```
