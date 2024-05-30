@@ -25,30 +25,10 @@ I am confident that with hard work and dedication, I can achieve my goals and be
 
 Thank you for your attention.
 ```typescript
-//index.ts
-import Data from './data.json' assert { type: 'json' };
+import { Happiness, Success } from "God";
 
-interface Address { street: string, city: string }
-interface Educations { level: string, name: string }
-interface Detail<A extends Address, E extends Educations> {
-    name: string;
-    age: number;
-    birth: string;
-    address: A;
-    hobbies: Array<string>;
-    educations: Array<E>;
+if ( Pray && Effort ) {
+    Happiness();
+    Success();
 }
-
-class About
-<T extends Detail<Address, Educations>
-{
-    constructor( public aboutMe: T ) {}
-
-    get Name(): string { return this.aboutMe.name }
-    set Name(name: string): void { this.aboutMe.name = name }
-}
-
-const about =
-    new About<Detail<Address, Educations>>(Data);
-console.info("Hello " + about.Name);
 ```
