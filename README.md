@@ -11,19 +11,33 @@ My interest in art and technology has led me to my dream of becoming a Fullstack
 I am confident that with hard work and dedication, I can achieve my goals and become a successful Fullstack Web Developer.
 
 Thank you for your attention.
+```json
+//data.json
+{
+    "name": "Ahmad Beni Rusli",
+    "age": 19,
+    "birth": "Cilacap, 23 July 2005",
+    "address": { "street": "Jln Cipari no 4", "city": "Cilacap" },
+    "hobbies": [ "drawing", "coding" ],
+    "educations": [
+        { "level": "vacation high school", "name": "SMK Darul Ulum" }
+        { "level": "junior high school", "name": "MTs Darul Ulum 02" }
+    ]
+}
+```
 ```typescript
 //index.ts
 import Data from './data.json' assert { type: 'json' };
 
 interface Address { street: string, city: string }
-interface Educations { level: string, name: string, year: string }
+interface Educations { level: string, name: string }
 interface Detail<A extends Address, E extends Educations> {
     name: string;
     age: number;
     birth: string;
     address: A;
-    hobbies: Array<string>
-    educations: Array<E>
+    hobbies: Array<string>;
+    educations: Array<E>;
 }
 
 class About
