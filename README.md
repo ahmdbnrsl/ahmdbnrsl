@@ -25,11 +25,17 @@ I am confident that with hard work and dedication, I can achieve my goals and be
 
 Thank you for your attention.
 ```zig
-@module Happiness require "God"
-@module Success require "power" extends "God"
+@module Happiness require "God".
+@module Success require "power" extends "God".
 
-variable Pray array<string> value ["Shubuh", "Dzuhur", "Ashar", "Maghrib", "Isya"]
-variable Effort array<string> value ["Learn", "Build Relation"]
+variable Pray
+  array<string>
+  value
+    ["Shubuh", "Dzuhur", "Ashar", "Maghrib", "Isya"].
+variable Effort
+  array<string>
+  value
+    ["Learn", "Build Relation"].
 
-if (Pray and Effort value istruthy) return $(Happiness) and $(Success)
+if (Pray and Effort value istruthy) return $(Happiness) and $(Success).
 ```
