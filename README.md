@@ -24,7 +24,7 @@ My interest in art and technology has led me to my dream of becoming a Fullstack
 I am confident that with hard work and dedication, I can achieve my goals and become a successful Fullstack Web Developer.
 
 Thank you for your attention.
-```assembly
+```golang
 @module Happiness require "God"
 @module Success require "power" extends "God"
 
