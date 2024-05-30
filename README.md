@@ -24,12 +24,12 @@ My interest in art and technology has led me to my dream of becoming a Fullstack
 I am confident that with hard work and dedication, I can achieve my goals and become a successful Fullstack Web Developer.
 
 Thank you for your attention.
-```zig
+```assembly
 @module Happiness require "God"
 @module Success require "power" extends "God"
 
-variable Pray boolean value true
-variable Effort boolean value true
+variable Pray array<string> value ["Shubuh", "Dzuhur", "Ashar", "Maghrib", "Isya"]
+variable Effort array<string> value ["Learn", "Build Relation"]
 
-if (Pray and Effort value true) return $(Happiness) and $(Success)
+if (Pray and Effort value istruthy) return $(Happiness) and $(Success)
 ```
