@@ -12,79 +12,30 @@ I am confident that with hard work and dedication, I can achieve my goals and be
 
 Thank you for your attention.
 ```typescript
-interface Address {
-    street: string;
-    city: string;
-}
+//index.ts
+import Data from './data.json' assert { type: 'json' };
 
-interface Hobbies {
-    [index: number]: string;
-}
-
-interface DetailEducations {
+interface Address { street: string, city: string }
+interface Educations { level: string, name: string, year: string }
+interface Detail<A extends Address, E extends Educations> {
     name: string;
-    address: string;
-    level: string;
-    year: string;
-}
-
-interface Educations {
-    [index: number]: DetailEducations;
-}
-
-interface FavouritesFoods {
-    [index: number]: string;
-}
-
-interface Person {
-    name: string;
+    age: number;
     birth: string;
-    address: Address;
-    hobbies: Hobbies;
-    educations: Educations;
-    favouritesFoods: FavouritesFoods;
+    address: A;
+    hobbies: Array<string>
+    educations: Array<E>
 }
 
-class MyDetail<Type extends Person> {
-    constructor(public myDetail: Type) {}
+class About
+<T extends Detail<Address, Educations>
+{
+    constructor( public aboutMe: T ) {}
+
+    get Name(): string { return this.aboutMe.name }
+    set Name(name: string): void { this.aboutMe.name = name }
 }
 
-const myDetail = new MyDetail<Person>({
-    name: "Ahmad Beni Rusli",
-    birth: "Cilacap, 23 July 2005",
-    address: {
-        street: "Jln. Cipari no 4",
-        city: "Cilacap"
-    },
-    hobbies: [
-        "Coding",
-        "Drawing",
-        "Workout",
-        "Sleeping"
-    ],
-    educations: [
-        {
-            name: "MI Islamiyah",
-            address: "Jln. Cipari no 4, Tinggarjaya",
-            level: "elementary school",
-            year: "2011 - 2017"
-        },
-        {
-            name: "MTs Darul Ulum 02",
-            address: "Jln. Makam Pahlawan, Tinggarjaya",
-            level: "Junior high school",
-            year: "2017 - 2020"
-        },
-        {
-            name: "SMK Darul Ulum",
-            address: "Jln. Makam Pahlawan, Tinggarjaya",
-            level: "Vacational High School",
-            year: "2020 - 2023"
-        }
-    ],
-    favouritesFoods: [
-        "Fried Chicken",
-        "Ice Cream"
-    ]
-});
+const about =
+    new About<Detail<Address, Educations>>(Data);
+console.info("Hello " + about.Name);
 ```
