@@ -31,5 +31,5 @@ Thank you for your attention.
 variable Pray boolean value true
 variable Effort boolean value true
 
-if (Pray and Effort hasValue true) return $(Happiness) and $(Success)
+if (Pray and Effort value true) return $(Happiness) and $(Success)
 ```
