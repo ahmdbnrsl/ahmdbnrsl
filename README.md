@@ -8,7 +8,7 @@
     "address": { "street": "Jln Cipari no 4", "city": "Cilacap" },
     "hobbies": [ "drawing", "coding" ],
     "educations": [
-        { "level": "vacation high school", "name": "SMK Darul Ulum" }
+        { "level": "vacation high school", "name": "SMK Darul Ulum" },
         { "level": "junior high school", "name": "MTs Darul Ulum 02" }
     ]
 }
