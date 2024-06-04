@@ -41,3 +41,7 @@ if
   value istruthy
     { $Happiness. $Success }
 ```
+
+![ahmdbnrsl's Stats](https://github-readme-stats.vercel.app/api?username=ahmdbnrsl&theme=react&show_icons=true&hide_border=true&count_private=false)
+![ahmdbnrsl's Streak](https://github-readme-streak-stats.herokuapp.com/?user=ahmdbnrsl&theme=react&hide_border=true)
+![ahmdbnrsl's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ahmdbnrsl&theme=react&show_icons=true&hide_border=true&layout=compact)
