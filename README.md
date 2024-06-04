@@ -1,5 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Mono&weight=1000&size=25&duration=2500&pause=1000&color=00F7E9&background=FFFFFF00&random=false&width=435&lines=Fullstack+Web+Developer;Next+JS+Developer;Tensorflow+JS+Developer;Pak+Ustadz)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Mono&weight=900&size=25&duration=2500&pause=1000&color=00F7E9&background=FFFFFF00&center=true&vCenter=true&random=false&width=435&lines=Selamat+Datang;Welcome;%E6%AC%A2%E8%BF%8E;%E3%81%84%E3%82%89%E3%81%A3%E3%81%97%E3%82%83%E3%81%84%E3%81%BE%E3%81%9B;%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B)](https://git.io/typing-svg)
 ```json
 {
     "name": "Ahmad Beni Rusli",
