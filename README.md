@@ -23,11 +23,12 @@ My interest in art and technology has led me to my dream of becoming a Fullstack
 I am confident that with hard work and dedication, I can achieve my goals and become a successful Fullstack Web Developer.
 
 Thank you for your attention.
-<div style="width: 100%;">
+
 ![ahmdbnrsl's Stats](https://github-readme-stats.vercel.app/api?username=ahmdbnrsl&theme=react&show_icons=true&hide_border=true&count_private=false)
 ![ahmdbnrsl's Streak](https://github-readme-streak-stats.herokuapp.com/?user=ahmdbnrsl&theme=react&hide_border=true)
 ![ahmdbnrsl's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ahmdbnrsl&theme=react&show_icons=true&hide_border=true&layout=compact)
-</div>
+
+
 ```zig
 @module Happiness require "God".
 @module Success require "power" extends "God".
