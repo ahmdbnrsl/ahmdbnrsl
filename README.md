@@ -21,25 +21,3 @@ For me, painting is a way to express myself and pour out my creativity. While co
 My interest in art and technology has led me to my dream of becoming a Fullstack Web Developer. I want to combine my skills in design art and programming to create beautiful and functional websites.
 
 I am confident that with hard work and dedication, I can achieve my goals and become a successful Fullstack Web Developer.
-
-Thank you for your attention.
-
-```zig
-@module Happiness require "God".
-@module Success require "power" extends "God".
-
-variable Pray
-  array<string>
-  value
-    ["Shubuh", "Dzuhur", "Ashar", "Maghrib", "Isya"].
-variable Effort
-  array<string>
-  value
-    ["Learn", "Build Relation"].
-
-if
-  Pray and Effort
-  value istruthy
-    { $Happiness. $Success }
-```
-
