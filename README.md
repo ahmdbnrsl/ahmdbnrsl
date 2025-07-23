@@ -7,4 +7,4 @@ def me():
 ```
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmdbnrsl&theme=react" style="width: 100%;">
 
-![integral](https://latex.codecogs.com/png.image?\dpi{120} \int_{a}^{b}f(x)dx=F(b)-F(a))
+![integral](https://latex.codecogs.com/png.latex?\dpi{120} \int_{a}^{b}f(x)dx=F(b)-F(a))
