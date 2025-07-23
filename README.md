@@ -6,3 +6,7 @@ def me():
     }
 ```
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmdbnrsl&theme=react" style="width: 100%;">
+
+```latex
+\frac{1}{2}
+```
