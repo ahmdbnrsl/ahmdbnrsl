@@ -6,5 +6,3 @@ def me():
     }
 ```
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmdbnrsl&theme=react" style="width: 100%;">
-
-![Formula](https://latex.codecogs.com/png.image?\dpi{120} \frac{-b\pm\sqrt{b^2-4ac}}{2a})
