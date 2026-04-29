@@ -2,7 +2,7 @@
 def me():
     return {
         "name": "Ahmad Beni Rusli",
-        "my_wife": "..."
+        "my_wife": "$2b$12$IIpaPBSSjqgQyLh8011wI.sNtme2oGJEyA/KJ9ZJVVxoRaEWGTOf2"
     }
 ```
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmdbnrsl&theme=react" style="width: 100%;">
