@@ -8,7 +8,7 @@ def me():
 
 [![Download CV](https://img.shields.io/badge/Download_CV-blue?style=for-the-badge&logo=adobeacrobat&logoColor=white)](./Ahmad_Beni_Rusli_CV.pdf?raw=true)
 
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmdbnrsl&theme=react" style="width: 100%;">
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmdbnrsl&theme=light" style="width: 100%;">
 <div align="center">
 	<table>
 		<tr>
