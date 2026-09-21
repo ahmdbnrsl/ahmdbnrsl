@@ -30,6 +30,8 @@ def me():
 			<td><code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/go.png" alt="Go" title="Go"/></code></td>
 			<td><code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mongodb.png" alt="mongoDB" title="mongoDB"/></code></td>
 			<td><code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tensorflow.png" alt="TensorFlow" title="TensorFlow"/></code></td>
+			</tr>
+		<tr>
 			<td><code><img width="50" src="https://lean-lang.org/static/png/lean-logo-official-TM-transparent-2400x900.png" alt="Lean" title="Lean"/></code></td>
 		</tr>
 	</table>
