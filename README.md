@@ -32,7 +32,7 @@ def me():
 			<td><code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tensorflow.png" alt="TensorFlow" title="TensorFlow"/></code></td>
 			</tr>
 		<tr>
-			<td><code><img width="50" src="https://omgsymbol.com/download/for-all/03/high-res/logo.jpg" alt="Lean" title="Lean"/></code></td>
+			<td><code><img width="50" src="https://cdn-image-beni.vercel.app/file/1789956425951.png" alt="Lean" title="Lean"/></code></td>
 		</tr>
 	</table>
 </div>
